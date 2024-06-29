@@ -42,9 +42,9 @@ if keyword:
 # 색상 지정 함수
 def color_rows(row):
     if row['개정일시'] == '2015개정':
-        return ['background-color: lightgreen'] * len(row)
+        return ['background-color: #E9DFC8'] * len(row)  # 위의 색상
     elif row['개정일시'] == '2022개정':
-        return ['background-color: lightcoral'] * len(row)
+        return ['background-color: #DAB6B1'] * len(row)  # 아래의 색상
     else:
         return [''] * len(row)
 
