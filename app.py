@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 파일 읽기
-curri = pd.read_csv("수학과 교육과정 정리 - 교육과정합본.csv")
+curri = pd.read_csv("data/수학과 교육과정 정리 - 교육과정합본.csv")
 
 # 타이틀 설정
 st.title("교육과정 찾기")
